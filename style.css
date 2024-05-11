@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    color: white;
+}
+body{
+    background-image: url(download\ \(1\).jpeg);
+    background-size: cover;
+}
+.top{
+    justify-content: space-around;
+   padding: 12px;
+   margin: 5px;
+}
+.logo img{
+    width: 80px;
+    margin-top: -1rem;
+}
+.navbar{
+    display: flex;
+    margin-left: 6rem;
+    margin-top: -3rem;
+}
+.navbar ul li{
+    list-style-type: none;
+    display: inline-block;
+}
+.navbar ul li a{
+    color: white;
+    padding: 9px;
+    text-decoration: none;
+}
+.navbar ul li a:hover{
+    color: darkblue;
+}
+#menu{
+    margin-left: 80rem;
+}
+#menu {
+    display: none;
+}
+.sign{
+    float: right;
+    padding: 12px;
+    margin-top: -2.4rem;
+    margin-left: -6rem;
+}
+.sign ul li{
+    list-style-type: none;
+   display: inline-block;
+}
+.sign ul li a{
+    text-decoration: none;
+}
+.sign ul li a:hover{
+    color: darkblue;
+}
+.main{
+    padding: 3rem;
+}
+.main h1{
+    margin-left: 10rem;
+    font-size: 3rem;
+    font-weight: 500;
+    margin-top: 4rem;
+}
+.main-img {
+    margin-top: -14rem;
+    margin-left: 15rem;
+}
+.main-p {
+    margin-top: -43rem;
+    margin-left: -15rem;
+}
+.main p{
+    display: inline-block;
+    padding: 22rem;
+    margin-left: 3rem;
+    
+    line-height: 2;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:556px){
+    .navbar{
+        display:  block;
+        justify-content: center;
+    }    
+    .sign{
+        display: none;
+    }
+    #menu{
+        color: white;
+        float: right;
+    }
+    .main{
+        display: none;
+    }
+}
+@media (max-width:424px){
+    .navbar{
+        display: block;
+        margin-top: 3rem;
+        margin-left: -1rem;
+        margin-left: 1rem;
+        font-size: 22px;
+        padding: 3rem;
+        justify-content: center;
+    }
+    .navbar ul li{
+        display: block;
+    }
+    .navbar ul li a{
+        margin: 50px;
+        padding: 45px;
+    }
+}
